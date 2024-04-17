@@ -21,17 +21,17 @@
 
 @font-face {
     font-family: "Shadow";
-    src: url(/public/font/shadows/ShadowsIntoLight-Regular.ttf) format("truetype");
+    src: url(./public/font/shadows/ShadowsIntoLight-Regular.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Miryenda";
-    src: url(/public/font/Merienda/Merienda-VariableFont_wght.ttf) format("truetype");
+    src: url(./public/font/Merienda/Merienda-VariableFont_wght.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Handlee";
-    src: url(/public/font/Handlee/Handlee-Regular.ttf) format("truetype");
+    src: url(./public/font/Handlee/Handlee-Regular.ttf) format("truetype");
 }
 
 

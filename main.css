@@ -1,0 +1,220 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+
+
+@font-face {
+    font-family: "Shadow";
+    src: url(/public/font/shadows/ShadowsIntoLight-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Miryenda";
+    src: url(/public/font/Merienda/Merienda-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Handlee";
+    src: url(/public/font/Handlee/Handlee-Regular.ttf) format("truetype");
+}
+
+
+
+
+.kagulat {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1.5s ease-in-out, visibility 0s linear 0.5s;
+}
+
+.kagulat.inmona {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+body {
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: wheat;
+
+}
+
+
+.mainName {
+    background-color: #181514;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+
+#name {
+    font-size: 70px;
+    margin: 100px 50px;
+}
+
+.main {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.divideleft, .dividemid, .divideright {
+    flex: 1;
+    overflow: hidden;
+    justify-content: center;
+    position: relative;
+}
+
+img {
+
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #2f2a28;
+
+}
+
+
+.divideleft {
+
+    #kinder {
+        max-width: 400px;
+        margin: 480px 35px 0px 35px;
+
+    }
+
+
+    #wbrudda {
+        max-width: 350px;
+        margin: 625px 35px 0px 35px;
+
+    }
+
+
+    #winner  {
+        max-width: 330px;
+        margin: 1250px 35px 0px 35px;
+    }
+
+    #randjimg {
+        max-width: 400px;
+        margin: 1250px 35px 0px 35px;
+    }
+
+
+}
+
+
+
+
+
+.dividemid {
+    #first {
+        margin: 150px 35px  0px 35px;
+        }
+
+    #second {
+        margin: 425px 35px  0px 35px;
+        }
+
+    #third {
+
+        margin: 425px 35px  0px 35px;
+        }
+    
+    #fourth {
+        margin: 455px 35px 0px 35px;
+        }
+
+    #fifth {
+        font-family: "Shadow", cursive;
+        font-size: 30px;
+        margin: 450px 35px 0px 5vw;
+        justify-content: center;
+        
+    }
+
+    #sixth {
+        margin: 440px 35px 0px 35px;
+    }
+
+    #seventh {
+        margin: 650px 35px 0px 35px;
+    }
+
+    #eightth {
+        margin: 500px 35px 0px 35px;
+        font-family: "Miryenda", cursive;
+    }
+
+    #ninth {
+        margin: 420px 35px 0px 35px;
+    }
+
+    #tenth {
+        margin: 350px 35px 0px 35px;
+    }
+
+
+
+    
+
+}
+
+
+.divideright {
+
+    #hospitalimg {
+        max-width: 450px;
+        margin: 70px 35px 0px 35px;
+    }
+
+    #xmasparty {
+        max-width: 450px;
+        margin: 650px 35px 0px 35px;
+    }
+
+
+    #gfive {
+        max-width: 350px;
+        margin: 1200px 35px 0px 35px;
+    }
+
+    #nineto {
+        max-width: 400px;
+        margin: 1620px 35px 0px 35px;
+    }
+
+
+
+
+}
+
+
+.lastha {
+    position: absolute;
+    margin: 40px 150px 40px 150px;
+    padding: 0px 0px 40px 0px;
+
+}
+
+#eleventh {
+    font-size: 20px;
+}
+

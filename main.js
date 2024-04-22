@@ -25,5 +25,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     window.addEventListener('scroll', fadeEls);
-    window.addEventListener('resize', fadeEls);
+    window.addEventListener('resize', fadeEls); 
 });

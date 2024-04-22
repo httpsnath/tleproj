@@ -34,6 +34,11 @@
     src: url(./public/font/Handlee/Handlee-Regular.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: dingbats;
+    src: url("./public/font/dingbats/dings.ttf") format("truetype");
+}
+
 
 
 
@@ -61,8 +66,44 @@ body {
     background-color: #181514;
     padding: 20px;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
 
 }
+
+#peri {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 20px;
+}
+
+.socials {
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    margin-left: 1100px;
+    margin-top: 10px;
+}
+
+
+
+.socialsFont {
+    flex: 1;
+    margin: 0px 30px 0px 30px;
+    font-family: "dingbats";
+    font-size: 25px;
+    text-decoration: none;
+    color: wheat;
+
+}
+
+
+
+.socialsFont:visited {
+    color: wheat;
+}
+
+
 
 
 #name {
@@ -218,4 +259,3 @@ img {
     font-size: 15.5px;
     font-family: "Miryenda", cursive;
 }
-
